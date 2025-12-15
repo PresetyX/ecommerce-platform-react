@@ -1,0 +1,24 @@
+:root { font-family: system-ui, sans-serif; color: #111827; background: #f9fafb; }
+body { margin: 0; }
+main { max-width: 1000px; margin: 0 auto; padding: 16px; }
+nav { display: flex; gap: 8px; align-items: center; margin-bottom: 20px; }
+nav h1 { flex: 1; font-size: 22px; margin: 0; }
+button { padding: 8px 14px; border-radius: 6px; border: 1px solid #2563eb; background: #2563eb; color: #fff; cursor: pointer; font: inherit; }
+button:disabled { background: #9ca3af; border-color: #9ca3af; cursor: not-allowed; }
+input, select { padding: 8px; border: 1px solid #d1d5db; border-radius: 6px; font: inherit; }
+.search { width: 100%; box-sizing: border-box; margin-bottom: 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.product { background: #fff; border-radius: 10px; padding: 14px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 1px 3px #0001; }
+.product p { color: #6b7280; font-size: 14px; flex: 1; margin: 0; }
+.emoji { font-size: 40px; }
+.row { display: flex; justify-content: space-between; align-items: center; }
+.stock { font-size: 12px; color: #16a34a; }
+.stock.low { color: #d97706; }
+.stock.out { color: #dc2626; }
+.panel { background: #fff; padding: 20px; border-radius: 10px; }
+.line { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 6px 0; border-bottom: 1px solid #f3f4f6; }
+.line input { width: 70px; }
+.checkout { display: flex; flex-direction: column; gap: 8px; max-width: 360px; margin-top: 12px; }
+.stats { display: flex; gap: 16px; margin: 12px 0; }
+.stats div { background: #eff6ff; padding: 12px 18px; border-radius: 8px; display: flex; flex-direction: column; }
+.error { color: #b91c1c; }
